@@ -1,0 +1,20 @@
+.maindiv{
+    display: inline-block;
+    width: 200;
+    height: 200;
+    text-align: center;
+    color: red;
+}
+.first{
+    background-color: rgb(0, 35, 102);
+    padding: 50;
+}
+.second{
+    background-color: rgb(0, 35, 102);
+    opacity:0.5;
+    padding: 50;
+}
+.third{
+    background-color: rgb(0, 35, 102,0.5);
+    padding: 50;
+}

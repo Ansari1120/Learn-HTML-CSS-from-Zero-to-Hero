@@ -1,0 +1,14 @@
+h1{
+    color: #296360;
+    background-color: rgb(207, 236, 183);
+    border: 5px solid red;
+}
+h2{
+    color: #fce066;
+}
+p{
+   color: rgb(50,160,234);
+}
+body{
+    background-color: lightgray;
+}

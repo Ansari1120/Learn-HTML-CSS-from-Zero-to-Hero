@@ -1,0 +1,8 @@
+div > p{
+    color: blueviolet;
+}
+
+ol > li > p{
+    font-family: sans-serif;
+    color: chocolate;
+}

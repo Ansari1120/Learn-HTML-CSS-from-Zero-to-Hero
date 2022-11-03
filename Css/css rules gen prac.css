@@ -1,0 +1,15 @@
+i{
+    color: aqua;
+}
+i{
+    color: brown;
+}
+b{
+    color: deeppink;
+}
+p b{
+    color: turquoise !important;
+}
+p b{
+    color: blueviolet;
+}

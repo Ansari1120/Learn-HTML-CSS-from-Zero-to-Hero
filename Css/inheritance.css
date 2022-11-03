@@ -1,0 +1,14 @@
+body{
+    color: rgb(135, 236, 88);
+    padding: 10px;
+}
+p{
+    padding: inherit;
+}
+div{
+    color: chocolate;
+   
+}
+a{
+    color: inherit;
+}

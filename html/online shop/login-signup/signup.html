@@ -1,0 +1,71 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign up Form</title>
+</head>
+<body>
+    <form action="www.online shop.com/login-signup/login.php" method="post">
+        <fieldset>
+            <legend>Personal Information</legend>
+            <p>First Name :
+                <input type="text" name="firstname" size="15" maxlength = "20" required/>
+               last Name :
+                <input type="text" name = "lastname" size="15" maxlength = "20"/>
+            </p>
+            <p>Gender :
+                <label>
+                    <input type="radio" name = "gender" value = "r"/>Male
+                </label>
+                <label>
+                    <input type="radio"name = "gender" value = "l" checked/>Female
+                </label>
+            </p>
+            <p>Date of Birth :
+                <input type="date" name="dob">
+            </p>
+            <p>
+                enter your email address
+                <input type="email" name="email">
+            </p>
+            <p>Nationality:
+                <select name="countries" >
+                    <option value="pakistan">PAKISTAN</option>
+                    <option value="usa">USA</option>
+                    <option value="canada">CANADA</option>
+                    <option value="england">ENGLAND</option>
+                    <option value="china">CHINA</option>
+                </select>
+            </p>
+        </fieldset>
+        <p>Enter your website : 
+            <input type="url" name="profile">
+        </p>
+        <p> password:
+            <input type="password" name = "password" size="15" maxlength = "20">
+            <br />
+            <br />
+            Re-password:
+            <input type="password" name = "password" size="15" maxlength = "20">
+        </p>
+        <p>Interests:
+            <input type="checkbox" name="interests" value = "men"/>Men's Clothing
+            <input type="checkbox" name="interests" value = "wmn"/>Women's Clothing
+            <input type="checkbox" name="interests" value = "acc"/>accessories
+            <input type="checkbox" name="interests" value = "elect"/>electronics
+        </p>
+        <p>Comments</p>
+         <textarea name="comments" id="" cols="30" rows="5">Enter Your Comments</textarea>
+         <p>Upload Profile Picture</p>
+         <input type="file" name="dp"/>
+         <br />
+         <br />
+         <input type="submit" value="upload">
+         <input type="submit">
+         <br />
+         <br />
+         <input type="image" src="../images/submit.png" width="50" height="50">
+    </form>
+</body>
+</html>

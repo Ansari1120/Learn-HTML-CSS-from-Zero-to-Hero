@@ -1,0 +1,52 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>Borders and backgrounds</title>
+    <style>
+        #fp{
+background-color: red;
+height: 100px;
+width: 455px;
+border-width: 2px;
+border-color: green;
+border-style: solid;
+border-radius: 11px;
+}
+#sp{
+    background-color: rgb(104, 224, 245);
+    height: 100px;
+    width: 455px;
+    border-width: 11px;
+    border-top: 6px solid rgb(180, 87, 168);
+    border-right: 6px solid rgb(28, 92, 55);
+    border-bottom: 6px solid rgb(35, 181, 207);
+    border-left: 6px solid rgb(32, 68, 37);
+    border-top-left-radius: 11px;
+    border-top-right-radius: 11px;
+    }
+#thirdpara{
+height: 400;
+width: 200;
+background-image: image('dbms.png');
+border : 11px solid violet;
+background-repeat: no-repeat;
+background-position: center center; /*we can do center top or 100 top , 1200 bottom etc*/
+/*top left,top right , bottom left*/
+}
+
+    </style>
+</head>
+<body>
+    <h1>this is heading</h1>
+    <p id = "fp">this is paragraph</p>
+    <h3>this is 2nd heading</h1>
+    <p id = "sp">this second is paragraph</p>
+    <h2>this is 3rd heading</h1>
+    <p id = "thirdpara">this third is paragraph
+    </p>
+   
+</body>
+</html>

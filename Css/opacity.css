@@ -1,0 +1,28 @@
+div{
+    background-color: black;
+    color: azure;
+    opacity: 0.25;
+}
+
+.maindiv{
+    display: inline-block;
+    width: 200px;
+    height: 200px;
+    text-align: center;
+}
+.first{
+    background-color: rgb(255, 19, 200);
+    padding : 50;
+    opacity: 1;
+}
+.second{
+    background-color: rgb(255, 19, 200);
+    padding : 50;
+    opacity: 0.6;
+}
+.third{
+    background-color: rgb(255, 19, 200);
+    padding : 50;
+    opacity: 0.3;
+}
+
