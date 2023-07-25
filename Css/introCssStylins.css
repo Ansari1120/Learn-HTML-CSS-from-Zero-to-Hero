@@ -1,0 +1,54 @@
+body{
+    background-color: lightblue;
+    
+}
+
+h1{
+    color: blue;
+}
+
+p{
+    font-family: verdana;
+    font-size: 100%;
+    text-align: center;
+}
+
+.center{
+    background-color: blanchedalmond;
+}
+
+.myclass{
+    background-color:aquamarine;
+    text-align: center;
+    font-family: Arial;
+}
+
+p.infer{
+    color: white;
+}
+
+.tbbb{
+    border:2px black solid;
+    margin-bottom: 40px;
+}
+/* 
+
+p.differ{
+    color:gray
+}
+
+*/
+
+.bsg{
+    /* color: rgb(132, 128, 246); */
+    /* color:#442; */
+    color:hsl(31, 100%, 52%);
+    border: 2px orange solid;
+    /* padding: 50px; */
+    padding-left: 10px;
+    margin-right: 800px;
+    /* background-color: rgb(224, 206, 172);
+    opacity: 0.3; */ 
+     background-image: url("logo.jpg");
+}   
+
